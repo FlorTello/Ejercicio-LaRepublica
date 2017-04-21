@@ -31,7 +31,7 @@ header{
   background-color: #5c5c66;
 }
 .container{
-  margin: 0 10%;
+  margin: 0 13%;
   background: #4d4d59;
 }
 .main-menu li{
@@ -41,11 +41,100 @@ header{
 }
 .twitter , .facebook , .youtube , .Instagram{
   text-align: center;
-  color: red;
+  color: #e00109;
   background-color: white;
   border: solid transparent ;
   border-radius: 60%;
   margin: 5px;
+}
+main section{
+  width: inherit;
+  background-color: white;
+}
+main section article.portada{
+  padding: 10px;
+  display: inline-block;
+  width: 79%;
+  /*padding-left: 7px;*/
+  position: relative;
+}
+
+main section article div.textArticle{
+  display: inline-block;
+  width: 18%;
+  height: 236px;
+  text-align: justify;
+  position: absolute;
+  background-color: #333340;
+  padding: 7px;
+}
+.imgArticle{
+  width: 80%;
+  right: 0;
+  float: right;
+  position: relative;
+}
+h1{
+  font-style: normal;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+main section article.secundario{
+  padding: 5px;
+  display: inline-block;
+  /*padding-left: 7px;*/
+  position: relative;
+}
+main section article.secundario div.textArticle{
+  display: inline-block;
+  width: 92.5%;
+  height: 50%;
+  text-align: justify;
+  position: absolute;
+  background-color: #333340;
+  padding: 7px;
+  bottom: 0;
+  top:97%;
+  /*position: absolute;*/
+}
+main section article.secundario div.textArticle span{
+  float: right;
+}
+main section article.secundario .imgNextArticle{
+  /*width: 80%;*/
+  top: 0;
+  /*position: absolute;*/
+}
+h2{
+  font-style: normal;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.iconos-article{
+  background-color: #b3b3b3;
+  font-weight:200;
+  border-radius: 12px;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  padding: 5px;
+  color: white;
+}
+main section aside{
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  position: relative;
+  right: 0;
+  /*padding-left: 15px;*/
+}
+.editorial{
+  width: 100%;
+  height: 70px;
+  display: inline-block;
+  background-color: #e00109;
 }
 .textUpperCase{
   text-transform: uppercase;
