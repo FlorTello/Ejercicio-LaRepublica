@@ -1,0 +1,57 @@
+*{
+  font-family: 'Roboto';
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #ebebeb;
+}
+header{
+  width: 100%;
+  height: auto;
+  background-color: #e00109;
+  padding: 0;
+  margin: 0;
+}
+.container-relative{
+  display: block;
+  padding: 1% 1% 1% 14%;
+}
+.container-relative a{
+  display: inline-block;
+}
+.redes-sociales{
+  position: absolute;
+  display: inline-block;
+  right:  3%;
+  padding-left: 5px;
+}
+.container-menu{
+  width: 100%;
+  background-color: #5c5c66;
+}
+.container{
+  margin: 0 10%;
+  background: #4d4d59;
+}
+.main-menu li{
+  list-style: none;
+  display: inline-block;
+  padding: 1%;
+}
+.twitter , .facebook , .youtube , .Instagram{
+  text-align: center;
+  color: red;
+  background-color: white;
+  border: solid transparent ;
+  border-radius: 60%;
+  margin: 5px;
+}
+.textUpperCase{
+  text-transform: uppercase;
+}
+.textMenu{
+  color: white;
+  font-weight: bold;
+  font-stretch: extra-condensed;
+}
